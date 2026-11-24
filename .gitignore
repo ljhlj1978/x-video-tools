@@ -1,0 +1,24 @@
+# 依赖程序不入库，见 bin/README.md
+bin/*.exe
+bin/*.zip
+
+# 下载 / 转换产物
+*.mp4
+*.mkv
+*.webm
+*.ts
+*.part
+*.ytdl
+*.m4a
+*.m3u8
+下载/
+输出/
+
+# 断点续传状态与登录凭据
+.xdl_state.json
+cookies.txt
+*.cookies
+
+# Windows 杂项
+Thumbs.db
+Desktop.ini
