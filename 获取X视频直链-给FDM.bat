@@ -1,0 +1,5 @@
+@echo off
+chcp 65001 >nul
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0x_video_dl.ps1" -OnlyLink %*
+echo.
+pause
